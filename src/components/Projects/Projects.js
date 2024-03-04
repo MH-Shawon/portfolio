@@ -25,8 +25,8 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Brand-Shop"
+              description="Engineered a brand shop website using React, Tailwind CSS, MongoDB, and Express for an improved online experience. Elevated brand shop growth with innovative features, enhancing user satisfaction and visibility."
               ghLink="https://github.com/MH-Shawon/brand-shop-client"
               demoLink="https://brand-shop-assignment-bba19.web.app/"
             />
@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Event-Management"
+              description="Implemented an event-management website using React.js to deliver a dynamic and interactive userinterface, enhancing user experience for event planning and execution. Utilized Tailwind CSS for efficient andresponsive styling, ensuring a visually appealing and modern design."
               ghLink="https://github.com/MH-Shawon/event-management"
               demoLink="https://event-manegement-b6535.web.app/"
             />
@@ -47,8 +47,8 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Dragon-News"
+              description="Designed and developed a news portal website featuring a responsive and user-friendly interface usingReact.js for dynamic content rendering. Incorporated Tailwind CSS for streamlined styling, ensuring anengaging and visually appealing presentation of news articles across various device"
               ghLink="https://github.com/MH-Shawon/dragon-news"
               demoLink="https://dragon-news-3d21b.web.app/"
             />
