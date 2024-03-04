@@ -35,14 +35,18 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={ navColour ? "sticky" : "navbar"}
+      className={navColour ? "sticky" : "navbar"}
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          
-          <h2 style={{
-            fontWeight:'bold'
-          }} className="purple img-fluid logo main-name">MH.</h2>
+          <h2
+            style={{
+              fontWeight: "bold",
+            }}
+            className="purple img-fluid logo main-name"
+          >
+            MH.
+          </h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -107,7 +111,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/MH-Shawon/portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
