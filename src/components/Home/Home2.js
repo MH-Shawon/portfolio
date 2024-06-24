@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript , React and Go. </b>
+                <b className="purple"> Javascript , React, NextJs, MongoDB, ExpressJs, Tailwind HTML and Css. </b>
               </i>
               <br />
               <br />

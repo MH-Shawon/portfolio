@@ -13,10 +13,30 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+        <div className="">
+          {props.ghClient && props.ghServer ? (
+            <>
+              <Button variant="primary" href={props.ghClient} target="_blank">
+                <BsGithub /> &nbsp;
+                {props.isBlog ? "Blog" : "Client"}
+              </Button>
+              <Button
+                className="m-2"
+                variant="primary"
+                href={props.ghServer}
+                target="_blank"
+              >
+                <BsGithub /> &nbsp;
+                {props.isBlog ? "Blog" : "Server"}
+              </Button>
+            </>
+          ) : (
+            <Button variant="primary" href={props.ghClient} target="_blank">
+              <BsGithub /> &nbsp;
+              {props.isBlog ? "Blog" : "Client"}
+            </Button>
+          )}
+        </div>
         {"\n"}
         {"\n"}
 
@@ -24,6 +44,7 @@ function ProjectCards(props) {
 
         {!props.isBlog && props.demoLink && (
           <Button
+            className="mt-2"
             variant="primary"
             href={props.demoLink}
             target="_blank"

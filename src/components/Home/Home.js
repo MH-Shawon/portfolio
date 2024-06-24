@@ -35,13 +35,15 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "350px" }}
               />
             </Col>
           </Row>
         </Container>
       </Container>
       <Home2 />
+
+      
     </section>
   );
 }
