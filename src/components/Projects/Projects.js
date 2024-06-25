@@ -29,7 +29,7 @@ function Projects() {
               description="Welcome to our power tools haven! Enjoy a seamless shopping experience with an intuitive interface, detailed product listings, and advanced search options. Shop confidently with secure transactions, personalized accounts, and responsive customer support. Discover exclusive promotions, educational content, and hassle-free returns."
               ghClient="https://github.com/MH-Shawon/power-tools-client"
               ghServer="https://github.com/MH-Shawon/power-tools-server"
-              demoLink="https://power-tools-9e58f.web.app/"
+              demoLink="https://power-tools-9e58f.firebaseapp.com/"
             />
           </Col>
           <Col md={4} className="project-card">
